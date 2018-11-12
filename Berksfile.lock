@@ -1,0 +1,7 @@
+DEPENDENCIES
+  Jenkins-KT-Cookbook
+    git: https://github.com/KThompson12346/Jenkins-KT-Cookbook.git
+    revision: 1ec294d29b89089274a33a7603267cedee492499
+
+GRAPH
+  Jenkins-KT-Cookbook (0.1.0)
