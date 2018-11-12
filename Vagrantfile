@@ -18,10 +18,10 @@ end
 Vagrant.configure("2") do |config|
   config.vm.define "jenkins-machine" do |jenkins|
     jenkins.vm.box = "ubuntu/xenial64"
-    jenkins.vm.network "private_network", ip: "192.168.72.1"
+    jenkins.vm.network "private_network", ip: "192.168.72.10"
     jenkins.hostsupdater.aliases = ["jenkins.vm"]
     jenkins.vm.provision "chef_solo" do |chef|
-      chef.add.recipe "Jenkins-KT-Cookbook::default"
+      chef.add_recipe "Jenkins-KT-Cookbook::default"
     end
   end
 end
