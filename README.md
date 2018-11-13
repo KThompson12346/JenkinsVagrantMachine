@@ -1,6 +1,6 @@
-# Jenkins Vagrant Machine
-
-#### Jenkins an automation pipeline tool:
+# **Jenkins Vagrant Machine**
+![Jenkins Logo](./img/JenkinsLogo.png)
+#### Jenkins, an automation pipeline tool:
 
 To use the Jenkins on the VM follow the set up steps bellow:
 
@@ -36,4 +36,9 @@ Now go to your browser and in the address bar type:
 ```
 jenkins.vm:8080
 ```
-You should be taken to a page entitled "Unlock Jenkins", paste the initial admin password into the space provided and click continue.
+You should be taken to a page entitled "Unlock Jenkins", paste the initial admin password into the space provided and click continue.  
+You now should be taken to The "Customize Jenkins" page, choose to install the suggested plugins or to install plugins of your choice. Next, you should see "getting started" page where Jenkins installs everything it needs including Jenkins plugins.  
+After installation is complete you will be taken to create your first admin user on the "Create First Admin User" page, once complete you are then taken to "instance configuration" where you enter the URL you want to use to access your Jenkins account.  
+Now open up your internet browser and go to your Jenkins URL and you should see the Jenkins dashboard with "Welcome to Jenkins!" welcome message.    
+
+![Jenkins Logo](./img/JenkinsDashboard.png)
